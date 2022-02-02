@@ -2,6 +2,7 @@
   "name": "mosaic-light-react",
   "version": "0.1.0",
   "scripts": {
+    "preinstall": "npm install vite -g",
     "start": "npm-run-all --parallel start:server start:web",
     "start:web": "vite",
     "start:server": "node src/server",
